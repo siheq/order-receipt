@@ -22,8 +22,7 @@ public class OrderReceipt {
 
 		// print date, bill no, customer name
 //        output.append("Date - " + order.getDate();
-        output.append(o.getCustomerName());
-        output.append(o.getCustomerAddress());
+        output.append(o.getCustomerInfo());
 //        output.append(order.getCustomerLoyaltyNumber());
 
 		// prints lineItems
@@ -54,4 +53,5 @@ public class OrderReceipt {
 		output.append("Total Amount").append('\t').append(tot);
 		return output.toString();
 	}
+
 }
